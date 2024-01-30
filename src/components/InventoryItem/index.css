@@ -1,0 +1,56 @@
+.inventory-item-container {
+    list-style: none;
+    margin-bottom: 15px;
+}
+
+.displayname-icon-container {
+    display: flex;
+    align-items: center;
+    background-color: #EEEDEB;
+    
+    padding: 25px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    width: 100%;
+}
+
+.inventory-display-name {
+    color: tomato;
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.down-arrow-icon {
+    font-size: 25px;
+}
+
+.up-arrow-icon {
+    font-size: 25px;
+}
+
+.displayname-count {
+    display: flex;
+    align-items: center;
+}
+
+.count {
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0 0 0 15px;
+    background-color: tomato;
+    color: #FFF;
+    min-width: 45px;
+    line-height: 28px;
+    border-radius: 40%;
+    text-align: center;
+}
+
+.category-list {
+    padding-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+}

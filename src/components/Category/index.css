@@ -1,0 +1,47 @@
+.category-item-container {
+    list-style: none;
+    margin-right: 35px;
+}
+
+.category-title {
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 25px;
+}
+
+.category-items-list {
+    padding-left: 0;
+}
+
+.item-container {
+    list-style-type: none;
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.item-container div {
+    width: 300px;
+}
+
+.item-name{
+    font-family: "Roboto";
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.material {
+    margin: 0;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 500;
+    width: 80%;
+}
+
+.items-count {
+    margin: 0 15px 0 0;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 600;
+}
